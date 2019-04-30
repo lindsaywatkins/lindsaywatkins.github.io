@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat');
+
 body {
 	background-color: #FFE87D;
-	font-family: Helvetica; sans-serif;
+	font-family: 'Esteban', serif;
+	}
+h1{ 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #8C66E8; 
+	text-align: center;
 	}
 #logo {
 	display: block;
@@ -8,11 +16,6 @@ body {
 	margin-right: auto;
 	width: 15%;
 }
-h1{ 
-	font-weight: bold;
-	color: #8C66E8; 
-	text-align: center;
-	}
 #slogan {
 	font-style: italic;
 	font-weight: bold;
