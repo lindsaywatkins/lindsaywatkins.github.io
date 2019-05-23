@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Esteban', serif;
-	background-image:('images/background.jpg');
+	background-image:url('images/background.jpg');
 }
 
 h1, h2, h3, h4 { 
@@ -44,7 +44,6 @@ span {
 }
 
 nav {
-    background-color: white;
     font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: black; 
@@ -68,7 +67,7 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
-	width: 30%;
+	width: 20%;
 }
 
 #slogan {
