@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Esteban', serif;
+	background-image:('images/background.jpg');
 }
 
 h1, h2, h3, h4 { 
@@ -14,19 +15,16 @@ h1 {
 	font-size: 2em;
 	text-align: center;
 	padding: 20px;
-
 }
 
 h2 {
 	font-size: 1.7em;
 	text-align: center;
-
 }
 
 h3 {
 	font-size: 1.5em;
 	text-align: center;
-
 }
 
 h4 {
@@ -39,20 +37,14 @@ span {
 	font-style: italic;
 }
 
-div {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
 .wrapper {
-	max-width: 100%;
+	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 nav {
-    background-color: #E8C66A;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: black; 
@@ -71,11 +63,6 @@ nav {
 	background-color: green;
 }
 
-header {
-    background-color: #FFED74;
-    padding: 20px;
-}
-
 #logo {
 	display: block;
 	margin-left: auto;
@@ -90,45 +77,11 @@ header {
 	text-align: center;
 }
 
-#hero {
-  display: block;
-  width:100%;
-}
-
-section {
-    background-color: #FFE2B8;
-    padding: 20px;
-}
-
-aside {
-	background-color: #FFC675;
-	padding: 20px;
-}
-
 .tourlogos {
 	display: block;
 	width:22%;
 	float: left;
 	padding: 1.5%;
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    padding: 20px;
-}
-
-#left {
-    background-color: #E582A2;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: #E55B88;
-    padding: 20px;
-    float: right;
-    width: 60%;
 }
 
 .clearfix:after {
@@ -148,7 +101,6 @@ ul {
 
 footer {
 	text-align: center;
-	background-color: #FF957E;
 	padding: 20px;
 }
 
