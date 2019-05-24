@@ -2,11 +2,46 @@
 
 body {
 	font-family: 'Esteban', serif;
-	background-image: url('images/background.jpg');
+	background-image: url('../images/background.jpg');
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+.wrapper {
+	max-width: 1600px;
+	position: center;
+}
+
+nav {
+    text-align: right;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    background-color: green;
+	font-weight: bold;
+	color: white; 
+}
+
+.navlinks {
+	background-color: green;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	padding: 20px;
+}
+
+.navlinks:hover {
+	background-color: blue;
+}
+
+#logo {
+	display: block;
+	background-color: green;
+	margin-left: 40px;
+	padding: 20px;
+	width: 15%;
+}
+
 
 h1, h2, h3, h4 { 
 	font-family: 'Montserrat', sans-serif;
@@ -40,40 +75,8 @@ span {
 	font-style: italic;
 }
 
-.wrapper {
-	max-width: 1600px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-nav {
-    font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	color: black; 
-}
-
-.navlinks {
-	background-color: white;
-	color: black;
-	text-decoration: none;
-	display: block;
-	float: right;
-	padding: 20px;
-}
-
-.navlinks:hover {
-	background-color: green;
-}
-
-#logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	width: 20%;
-}
-
 #slogan {
+	padding-top: 100px;
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
