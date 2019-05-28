@@ -28,7 +28,10 @@ nav {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	padding: 20px;
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 45px;
 }
 
 .navlinks:hover {
@@ -38,11 +41,8 @@ nav {
 #logo {
 	display: block;
 	margin-left: 40px;
-	padding-top: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	width: 20%;
+	padding: 20px;
+	width: 40%;
 	float: left;
 }
 
@@ -98,7 +98,7 @@ span {
 #about {
 	display: block;
 	width: 800px;
-	margin-top: 200px;
+	margin-top: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
