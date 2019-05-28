@@ -18,13 +18,12 @@ nav {
     text-align: right;
     display: block;
     font-family: 'Montserrat', sans-serif;
-    background-color: #2A4015;
+    background-color: rgba(2, 56, 89, .75);
 	font-weight: bold;
 	color: white; 
 }
 
 .navlinks {
-	background-color: #2A4015;
 	color: white;
 	text-decoration: none;
 	display: inline-block;
@@ -35,7 +34,7 @@ nav {
 }
 
 .navlinks:hover {
-	background-color: #023859;
+	opacity: 0.75;
 }
 
 #logo {
@@ -251,7 +250,7 @@ footer {
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 .fa-facebook {
