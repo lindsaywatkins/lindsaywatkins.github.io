@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat|Permanent Marker');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent Marker');
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -12,6 +12,10 @@ body {
 .wrapper {
 	max-width: 1600px;
 	position: center;
+}
+
+header {
+	position: fixed;
 }
 
 nav {
@@ -45,22 +49,15 @@ nav {
 	float: left;
 }
 
-
-h1, h2, h3, h4 { 
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	color: black; 
-}
-
 h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 3em;
 	text-align: center;
-	padding-top: 75px;
-	color: #023859;
 }
 
 h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
 	color: white;
@@ -68,6 +65,8 @@ h2 {
 }
 
 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 1.5em;
 	text-align: center;
 	color: white;
@@ -75,8 +74,10 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;font-size: 1.2em;
 	text-align: left;
+	color: white;
 }
 
 p {
@@ -86,8 +87,30 @@ p {
 	padding: 10px;
 	font-weight: lighter;
 	line-height: 1.5em;
-
 }
+
+#tagline {
+	padding-top: 150px;
+	color: #023859;
+	padding-bottom: 500px;
+}
+
+.button {
+	background-color: rgba(2, 56, 89, .75);
+ 	border: none;
+ 	display: inline-block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	color: white;
+ 	padding: 15px 15px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	font-size: 16px;
+ }
+
+ .button:hover {
+ 	opacity: 75%;
+ }
 
 span {
 	font-weight: bold;
@@ -95,11 +118,16 @@ span {
 }
 
 #about {
+	margin-top: 75px;
+}
+
+#about,#why,#partners {
 	display: block;
 	width: 800px;
-	margin-top: 500px;
+	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 25px;
 	padding-top: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
@@ -108,37 +136,7 @@ span {
 	border-radius: 25px;
 }
 
-#why {
-	display: block;
-	width: 800px;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 50px;
-	background-color: rgba(2, 56, 89, .75);
-	border-radius: 25px;
-}
-
-#partners {
-	display: block;
-	width: 800px;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-	padding-top: 50px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 50px;
-	background-color: rgba(2, 56, 89, .75);
-	border-radius: 25px;
-	text-align: center;
-}
-
-#lizardhead {
+#lizardhead,#tourissimo {
 	display: block;
 	width: 35%;
 	margin-top: 20px
@@ -151,7 +149,7 @@ span {
 	float: left;
 }
 
-#rideandseek {
+#rideandseek,#grasshopper {
 	display: block;
 	width: 35%;
 	margin-top: 20px
@@ -164,32 +162,6 @@ span {
 	float: right;
 }
 
-#tourissimo {
-	display: block;
-	text-align: center;
-	width: 300px;
-	margin-top: 20px
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	padding: 20px;
-	background-color: rgb(173, 187, 179);
-	border-radius: 25px;
-	float: left;
-}
-
-#grasshopper {
-	display: block;
-	width: 300px;
-	margin-top: 20px
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	padding: 20px;
-	background-color: rgb(173, 187, 179);
-	border-radius: 25px;
-	float: right;
-}
 .tourlogos {
 	display: block;
 	width:50%;
@@ -213,7 +185,9 @@ ul {
 }
 
 footer {
-	background-color: rgba(42, 64, 21, .75);
+	display: block;
+	margin-top: 25px;
+	background-color: rgba(2, 56, 89, .75);
 	padding: 20px;
 }
 
@@ -234,7 +208,6 @@ footer {
 }
 
 .footerlinks {
-	background-color: #2A4015;
 	color: white;
 	text-decoration: none;
 }
