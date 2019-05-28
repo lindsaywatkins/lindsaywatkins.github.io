@@ -136,14 +136,15 @@ span {
 	padding-bottom: 50px;
 	background-color: rgba(2, 56, 89, .75);
 	border-radius: 25px;
+	text-align: center;
 }
 
 #lizardhead {
 	display: block;
-	width: 300px;
+	width: 35%;
 	margin-top: 20px
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10%;
+	margin-right: 5%;
 	margin-bottom: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
@@ -153,10 +154,10 @@ span {
 
 #rideandseek {
 	display: block;
-	width: 300px;
+	width: 35%;
 	margin-top: 20px
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 5%;
+	margin-right: 10%;
 	margin-bottom: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
@@ -166,6 +167,7 @@ span {
 
 #tourissimo {
 	display: block;
+	text-align: center;
 	width: 300px;
 	margin-top: 20px
 	margin-left: auto;
@@ -191,7 +193,7 @@ span {
 }
 .tourlogos {
 	display: block;
-	width:22%;
+	width:50%;
 	float: left;
 	padding: 1.5%;
 }
