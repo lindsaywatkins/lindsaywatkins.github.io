@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat|Permanent Marker');
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -54,7 +54,8 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
 	text-align: center;
 	padding-top: 75px;
 	color: #023859;
@@ -122,6 +123,72 @@ span {
 	border-radius: 25px;
 }
 
+#partners {
+	display: block;
+	width: 800px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 50px;
+	background-color: rgba(2, 56, 89, .75);
+	border-radius: 25px;
+}
+
+#lizardhead {
+	display: block;
+	width: 300px;
+	margin-top: 20px
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgb(173, 187, 179);
+	border-radius: 25px;
+	float: left;
+}
+
+#rideandseek {
+	display: block;
+	width: 300px;
+	margin-top: 20px
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgb(173, 187, 179);
+	border-radius: 25px;
+	float: right;
+}
+
+#tourissimo {
+	display: block;
+	width: 300px;
+	margin-top: 20px
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgb(173, 187, 179);
+	border-radius: 25px;
+	float: left;
+}
+
+#grasshopper {
+	display: block;
+	width: 300px;
+	margin-top: 20px
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgb(173, 187, 179);
+	border-radius: 25px;
+	float: right;
+}
 .tourlogos {
 	display: block;
 	width:22%;
@@ -145,7 +212,7 @@ ul {
 }
 
 footer {
-	background-color: #2A4015;
+	background-color: rgba(42, 64, 21, .75);
 	padding: 20px;
 }
 
@@ -158,8 +225,7 @@ footer {
 }
 
 #footer_logo {
-	display:block;
-	background-color: #2A4015;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 50%;
@@ -171,3 +237,33 @@ footer {
 	color: white;
 	text-decoration: none;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: rgb(2, 56, 89);
+  color: white;
+}
+
+.fa-linkedin {
+  background: rgb(2, 56, 89);
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(2, 56, 89);
+  color: white;
+}
+
