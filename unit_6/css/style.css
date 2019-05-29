@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent Marker');
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-image: url('../images/background.jpg');
@@ -142,7 +144,7 @@ span {
 #lizardhead,#tourissimo {
 	display: block;
 	width: 300px;
-	min-height: 25em;
+	min-height: 30em;
 	margin: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
@@ -154,7 +156,7 @@ span {
 	display: block;
 	text-align: center;
 	width: 300px;
-	min-height: 25em;
+	min-height: 30em;
 	margin: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
