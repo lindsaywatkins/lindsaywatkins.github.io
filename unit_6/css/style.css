@@ -95,7 +95,7 @@ p {
 	padding-bottom: 500px;
 }
 
-.button {
+/*.button {
 	background-color: rgba(2, 56, 89, .75);
  	border: none;
  	display: inline-block;
@@ -110,39 +110,36 @@ p {
 
  .button:hover {
  	opacity: 75%;
- }
+ }*/
 
 span {
 	font-weight: bold;
 	font-style: italic;
 }
 
-#about {
-	margin-top: 75px;
-}
-
-#about,#why,#partners {
+#about,#why{
 	display: block;
 	width: 800px;
-	margin-top: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 50px;
+	margin: 25px auto;
+	padding: 50px 100px;
+	background-color: rgba(2, 56, 89, .75);
+	border-radius: 25px;
+}
+
+#partners {
+	display: block;
+	width: 800px;
+	margin: 25px auto;
+	padding: 50px 40px;
 	background-color: rgba(2, 56, 89, .75);
 	border-radius: 25px;
 }
 
 #lizardhead,#tourissimo {
 	display: block;
-	width: 35%;
-	margin-top: 20px
-	margin-left: 10%;
-	margin-right: 5%;
-	margin-bottom: 20px;
+	width: 300px;
+	min-height: 25em;
+	margin: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
 	border-radius: 25px;
@@ -151,11 +148,9 @@ span {
 
 #rideandseek,#grasshopper {
 	display: block;
-	width: 35%;
-	margin-top: 20px
-	margin-left: 5%;
-	margin-right: 10%;
-	margin-bottom: 20px;
+	width: 300px;
+	min-height: 25em;
+	margin: 20px;
 	padding: 20px;
 	background-color: rgb(173, 187, 179);
 	border-radius: 25px;
