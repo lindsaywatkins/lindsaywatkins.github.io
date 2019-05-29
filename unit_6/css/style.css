@@ -135,9 +135,12 @@ span {
 	border-radius: 25px;
 }
 
+.center {
+	text-align: center;
+}
+
 #lizardhead,#tourissimo {
 	display: block;
-	text-align: center;
 	width: 300px;
 	min-height: 25em;
 	margin: 20px;
@@ -157,10 +160,6 @@ span {
 	background-color: rgb(173, 187, 179);
 	border-radius: 25px;
 	float: right;
-}
-
-.center {
-	text-align: center;
 }
 
 #lizardheadlogo, #rideandseeklogo {
