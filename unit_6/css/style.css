@@ -157,10 +157,31 @@ span {
 	float: right;
 }
 
-.tourlogos {
+#lizardheadlogo {
 	display: block;
-	width:50%;
-	float: left;
+	margin: auto;
+	width: 35%;
+	padding: 1.5%;
+}
+
+#rideandseeklogo {
+	display: block;
+	margin: auto;
+	width: 35%;
+	padding: 1.5%;
+}
+
+#tourissimologo {
+	display: block;
+	margin: auto;
+	width: 70%;
+	padding: 1.5%;
+}
+
+#grasshopperlogo {
+	display: block;
+	margin: auto;
+	width: 70%;
 	padding: 1.5%;
 }
 
