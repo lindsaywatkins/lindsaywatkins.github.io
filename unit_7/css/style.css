@@ -178,7 +178,7 @@ span {
 	padding: 1.5%;
 }
 
-ul {
+ul.a {
 	list-style-type: circle;
 	list-style-position: outside;
 	margin: 20px;
@@ -214,7 +214,7 @@ footer {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
