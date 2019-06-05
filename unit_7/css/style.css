@@ -90,22 +90,21 @@ p {
 	padding-bottom: 400px;
 }
 
-/*.button {
-	background-color: rgba(2, 56, 89, .75);
- 	border: none;
+.button {
+ 	border: 2px solid white;
+ 	border-radius: 4px;
  	display: inline-block;
- 	margin-left: auto;
- 	margin-right: auto;
+ 	margin: 10px auto;
  	color: white;
- 	padding: 15px 15px;
+ 	padding: 10px 10px;
  	text-align: center;
  	text-decoration: none;
- 	font-size: 16px;
+ 	font-size: 1em;
  }
 
  .button:hover {
  	opacity: 75%;
- }*/
+ }
 
 span {
 	font-weight: bold;
@@ -130,6 +129,7 @@ span {
 p.testimonial{
 	text-align: center;
 	font-style: italic;
+	font-size: 1em;
 }
 
 p.center{
