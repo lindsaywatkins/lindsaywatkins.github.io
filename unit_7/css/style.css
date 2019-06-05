@@ -11,20 +11,16 @@ body {
 	color: white;
 }
 
-.wrapper {
-	max-width: 1600px;
-	position: center;
-}
-
 header {
 	position: fixed;
+	width: 100%;
+	left: 0;
 }
 
 nav {
     text-align: right;
     display: block;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgba(2, 56, 89, .75);
+    background-color: rgb(2, 56, 89);
 	font-weight: bold;
 	color: white; 
 }
@@ -33,10 +29,7 @@ nav {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	padding-top: 45px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 45px;
+	padding: 45px 20px;
 }
 
 .navlinks:hover {
@@ -53,7 +46,7 @@ nav {
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
 }
 
@@ -94,7 +87,7 @@ p {
 #tagline {
 	padding-top: 150px;
 	color: #023859;
-	padding-bottom: 500px;
+	padding-bottom: 400px;
 }
 
 /*.button {
@@ -119,49 +112,38 @@ span {
 	font-style: italic;
 }
 
-#about,#why{
+#about {
 	display: block;
-	width: 800px;
-	margin: 25px auto;
-	padding: 50px 100px;
-	background-color: rgba(2, 56, 89, .75);
-	border-radius: 25px;
+	margin-top: 100px;
+	padding: 5% 25%;
+	background-color: rgba(2, 56, 89, .85);
 }
 
 #partners {
 	display: block;
-	width: 800px;
-	margin: 25px auto;
-	padding: 50px 40px;
-	background-color: rgba(2, 56, 89, .75);
-	border-radius: 25px;
+	margin-top: 100px;
+	padding: 5% 0%;
+	background-color: rgba(2, 56, 89, .85);
 }
 
-.center {
+
+p.testimonial{
+	text-align: center;
+	font-style: italic;
+}
+
+p.center{
 	text-align: center;
 }
 
-#lizardhead,#tourissimo {
+.operators {
 	display: block;
-	width: 300px;
+	width: 23%;
+	margin: 1%;
 	min-height: 30em;
-	margin: 20px;
-	padding: 20px;
 	background-color: rgb(173, 187, 179);
 	border-radius: 25px;
 	float: left;
-}
-
-#rideandseek,#grasshopper {
-	display: block;
-	text-align: center;
-	width: 300px;
-	min-height: 30em;
-	margin: 20px;
-	padding: 20px;
-	background-color: rgb(173, 187, 179);
-	border-radius: 25px;
-	float: right;
 }
 
 #lizardheadlogo, #rideandseeklogo {
@@ -178,16 +160,7 @@ span {
 	padding: 1.5%;
 }
 
-#about2 {
-	display: block;
-	width: 800px;
-	margin: 50px auto;
-	padding: 50px 100px;
-	background-color: rgba(2, 56, 89, .75);
-	border-radius: 25px;
-}
-
-ul.a {
+ul.list {
 	list-style-type: circle;
 	list-style-position: outside;
 	margin: 20px;
@@ -197,14 +170,7 @@ footer {
 	display: block;
 	margin-top: 25px;
 	background-color: rgba(2, 56, 89, .75);
-}
-
-.footer {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	line-height: 1em;
+	width: 100%;
 }
 
 /*#footer_logo {
