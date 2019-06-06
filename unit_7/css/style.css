@@ -44,39 +44,35 @@ nav {
 	float: left;
 }
 
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+
+h2, h3, h4, h5 {
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px 0px 10px;
+}
+
 h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 3.5em;
-	text-align: center;
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
 	font-size: 2em;
-	text-align: center;
-	color: white;
-	padding: 20px;
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
 	font-size: 1.5em;
-	text-align: center;
-	color: white;
-	padding: 20px;
 }
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;font-size: 1.2em;
-	text-align: left;
-	color: white;
+	font-size: 1.2em;
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 	font-size: 1em;
 	color: white;
 	padding: 10px;
@@ -86,8 +82,8 @@ p {
 
 #tagline {
 	padding-top: 150px;
-	color: #023859;
 	padding-bottom: 400px;
+	color: #023859;
 }
 
 .button {
@@ -107,25 +103,22 @@ span {
 	font-style: italic;
 }
 
-#about {
+#about, #testimonials {
 	display: block;
 	margin-top: 100px;
 	padding: 5% 25%;
-	background-color: rgba(2, 56, 89, .85);
+	background-color: rgba(2, 56, 89, .9);
 }
 
 #partners {
 	display: block;
-	margin-top: 100px;
 	padding: 5% 0%;
-	background-color: rgba(2, 56, 89, .85);
+	background-color: rgba(2, 56, 89, .9);
 }
-
 
 p.testimonial{
 	text-align: center;
 	font-style: italic;
-	font-size: 1em;
 }
 
 p.center{
@@ -136,6 +129,7 @@ p.center{
 	display: block;
 	width: 23%;
 	margin: 1%;
+	padding: 10px;
 	min-height: 30em;
 	background-color: rgb(173, 187, 179);
 	border-radius: 25px;
@@ -160,6 +154,12 @@ ul.list {
 	list-style-type: circle;
 	list-style-position: outside;
 	margin: 20px;
+}
+
+img .wide {
+	margin: auto;
+	width: 100%;
+	background: #A0A605;
 }
 
 footer {
