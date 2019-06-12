@@ -4,6 +4,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 	background-image: url('../images/background.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -15,14 +16,14 @@ header {
 	position: fixed;
 	width: 100%;
 	left: 0;
+	background-color: rgb(2, 56, 89);
 }
 
 nav {
-    text-align: right;
     display: block;
-    background-color: rgb(2, 56, 89);
 	font-weight: bold;
 	color: white; 
+	float: right;
 }
 
 nav a {
@@ -32,16 +33,17 @@ nav a {
 	padding: 45px 20px;
 }
 
-.navlinks:hover {
+nav a:hover {
 	opacity: 0.75;
 }
 
 #logo {
-	display: block;
-	margin-left: 40px;
-	padding: 20px;
-	width: 40%;
+	margin-left: 3em;
+	width: 30em;
 	float: left;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-60%);
 }
 
 h1, h2, h3, h4, h5 {
@@ -51,12 +53,12 @@ h1, h2, h3, h4, h5 {
 h2, h3, h4, h5 {
 	color: white;
 	font-weight: bold;
-	padding: 5px 10px 0px 10px;
+	padding: .5em 1em 0em 1em;
 }
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 h2 {
@@ -73,9 +75,7 @@ h4 {
 
 p {
 	text-align: left;
-	font-size: 1em;
-	color: white;
-	padding: 10px;
+	padding: 1em;
 	font-weight: lighter;
 	line-height: 1.5em;
 }
@@ -103,9 +103,20 @@ span {
 	font-style: italic;
 }
 
-#about, #testimonials {
+blockquote {
+	text-align: center;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+blockquote cite {
+	display: inline-block;
+	text-align: right;
+}
+
+#about {
 	display: block;
-	margin-top: 100px;
+	margin-top: 10em;
 	padding: 5% 25%;
 	background-color: rgba(2, 56, 89, .9);
 }
@@ -116,9 +127,10 @@ span {
 	background-color: rgba(2, 56, 89, .9);
 }
 
-p.testimonial{
-	text-align: center;
-	font-style: italic;
+#testimonials {
+	display: block;
+	padding: 5% 25%;
+	background-color: rgba(2, 56, 89, .9);
 }
 
 p.center{
@@ -150,13 +162,12 @@ p.center{
 	padding: 1.5%;
 }
 
-ul.list {
-	list-style-type: circle;
-	list-style-position: outside;
-	margin: 20px;
+li {
+	margin: 0em 3em;
+	padding: 0em .5em;
 }
 
-img .wide {
+.wide {
 	margin: auto;
 	width: 100%;
 	background: #A0A605;
@@ -164,8 +175,7 @@ img .wide {
 
 footer {
 	display: block;
-	margin-top: 25px;
-	padding-top: 25px;
+	padding-top: 2.5em;
 	background-color: rgb(2, 56, 89);
 	width: 100%;
 }
