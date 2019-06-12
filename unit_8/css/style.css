@@ -5,11 +5,18 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	text-align: left;
+	font-weight: lighter;
+	line-height: 1.5em;
 	background-image: url('../images/background.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
+}
+
+p {
+	padding-top: 1em;
 }
 
 header {
@@ -21,16 +28,15 @@ header {
 
 nav {
     display: block;
-	font-weight: bold;
-	color: white; 
 	float: right;
 }
 
 nav a {
 	color: white;
+	font-weight: normal;
 	text-decoration: none;
 	display: inline-block;
-	padding: 45px 20px;
+	padding: 2em 1em;
 }
 
 nav a:hover {
@@ -38,12 +44,12 @@ nav a:hover {
 }
 
 #logo {
-	margin-left: 3em;
-	width: 30em;
+	margin-left: 2em;
+	width: 25em;
 	float: left;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-60%);
+	transform: translateY(-64%);
 }
 
 h1, h2, h3, h4, h5 {
@@ -58,7 +64,8 @@ h2, h3, h4, h5 {
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 3em;
+	font-size: 2.5em;
+	line-height: 1.5em;
 }
 
 h2 {
@@ -73,16 +80,9 @@ h4 {
 	font-size: 1.2em;
 }
 
-p {
-	text-align: left;
-	padding: 1em;
-	font-weight: lighter;
-	line-height: 1.5em;
-}
-
 #tagline {
-	padding-top: 150px;
-	padding-bottom: 400px;
+	padding-top: 7em;
+	padding-bottom: 18em;
 	color: #023859;
 }
 
@@ -98,20 +98,13 @@ p {
  	font-size: 1em;
  }
 
+.center {
+	text-align: center;
+}
+
 span {
 	font-weight: bold;
 	font-style: italic;
-}
-
-blockquote {
-	text-align: center;
-	font-style: italic;
-	line-height: 1.5em;
-}
-
-blockquote cite {
-	display: inline-block;
-	text-align: right;
 }
 
 #about {
@@ -130,11 +123,31 @@ blockquote cite {
 #testimonials {
 	display: block;
 	padding: 5% 25%;
-	background-color: rgba(2, 56, 89, .9);
+	background-image: url('../images/tour_photos/lizardhead/Redrocks_Canyon_02.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
 }
 
-p.center{
-	text-align: center;
+#quoteblock {
+	display: block;
+	margin: auto;
+	padding: 5em 5em 5em 2em;
+	background-color: rgba(2, 56, 89, .8);
+}
+
+blockquote {
+	text-align: left;
+	font-style: italic;
+	line-height: 1.5em;
+	border-left: 3px solid rgb(2, 56, 89);
+	padding-left: 2em;
+}
+
+blockquote cite {
+	display: inline-block;
+	text-align: right;
 }
 
 .operators {
@@ -174,44 +187,29 @@ li {
 }
 
 footer {
+	text-align: center;
+	line-height: 1em;
 	display: block;
-	padding-top: 2.5em;
+	padding: 2.5em 0em;
 	background-color: rgb(2, 56, 89);
 	width: 100%;
 }
 
-p.footer {
-	text-align: center;
-	line-height: 1em;
-}
-
-/*#footer_logo {
+#footer_logo {
 	display: block;
-	margin-left: 40px;
-	padding: 20px;
-	max-width: 15%;
-	float: left;
-}*/
+	margin: auto;
+	max-width: 25em;
+}
 
 .fa {
   font-size: 40px;
+  color: white;
   width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
 
-.fa-facebook {
-  color: white;
-}
-
-.fa-linkedin {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
 
 .clearfix:after {
     visibility: hidden;
