@@ -8,7 +8,7 @@ body {
 	text-align: left;
 	font-weight: lighter;
 	line-height: 1.5em;
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/tour_photos/grasshopper/Mongolia.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -64,7 +64,7 @@ h2, h3, h4, h5 {
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 2.5em;
+	font-size: 3em;
 	line-height: 1.5em;
 }
 
@@ -81,9 +81,10 @@ h4 {
 }
 
 #tagline {
-	padding-top: 7em;
-	padding-bottom: 18em;
-	color: #023859;
+	padding-top: 10em;
+	padding-bottom: 5em;
+	color: white;
+	text-shadow: 2px 2px rgb(2, 56, 89);
 }
 
 .button {
@@ -109,7 +110,7 @@ span {
 
 #about {
 	display: block;
-	margin-top: 10em;
+	margin-top: 20em;
 	padding: 5% 25%;
 	background-color: rgba(2, 56, 89, .9);
 }
@@ -122,8 +123,8 @@ span {
 
 #testimonials {
 	display: block;
-	padding: 5% 25%;
-	background-image: url('../images/tour_photos/lizardhead/Redrocks_Canyon_02.jpg');
+	padding: 5% 5% 5% 45%;
+	background-image: url('../images/tour_photos/lizardhead/Redrocks_Canyon_02_2.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
